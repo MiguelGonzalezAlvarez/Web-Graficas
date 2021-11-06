@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-barras-doble',
-  templateUrl: './barras-doble.component.html',
+  selector: 'app-dona',
+  templateUrl: './dona.component.html',
   styles: [
   ]
 })
-export class BarrasDobleComponent implements OnInit {
+export class DonaComponent implements OnInit {
 
   constructor() { }
 

@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { GraficasRoutingModule } from './graficas-routing.module';
 import { BarrasComponent } from './pages/barras/barras.component';
-import { BarrasDobleComponent } from './pages/barras-doble/barras-doble.component';
+import { BarrasDobleComponent } from './pages/barras-dobles/barras-dobles.component';
 import { DonaHttpComponent } from './pages/dona-http/dona-http.component';
 import { GraficaBarraComponent } from './components/grafica-barra/grafica-barra.component';
+import { DonaComponent } from './pages/dona/dona.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { GraficaBarraComponent } from './components/grafica-barra/grafica-barra.
     BarrasComponent,
     BarrasDobleComponent,
     DonaHttpComponent,
-    GraficaBarraComponent
+    GraficaBarraComponent,
+    DonaComponent
   ],
   imports: [
     CommonModule,
